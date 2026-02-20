@@ -1,0 +1,84 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Good morning", "Good evening"],
+            "responses": ["Hello! How can I help you?"]
+        },
+        {
+            "tag": "bye",
+            "patterns": ["Goodbye", "See you later", "Bye", "bye", "BYE"],
+            "responses": ["Goodbye! Have a nice day!"]
+        },
+        {
+            "tag": "ai",
+            "patterns": ["What is AI", "Tell me about Artificial Intelligence", "Tell me about AI", "AI", "ai", "Ai"],
+            "responses": ["Artificial Intelligence is the simulation of the human brain by machines."]
+        },
+        {
+            "tag": "wifi_problem",
+            "patterns": ["What is wrong with my wifi", "Wifi", "Problem with wifi", "WIFI", "wifi"],
+            "responses": ["Write me your home phone number: \n"]
+        },
+        {
+            "tag": "ISO-27001:2018",
+            "patterns": ["Assets", "Vulnerabilities", "Problem with assets", "hackers", "cybersecurity"],
+            "responses": ["Please contact us to talk about safety measures for your company (write down your email): \n"]
+        },
+        {
+            "tag": "frequency_type",
+            "patterns": ["freequency", "Vulnerabilities", "Problem with assets", "hackers", "cybersecurity"],
+            "responses": ["Please contact us to talk about safety measures for your company (write down your email): \n"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "I appreciate it", "Thanks a lot"],
+            "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Tell me the weather", "Weather update"],
+            "responses": ["Please provide your location so I can check the weather for you."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+            "responses": ["I am your virtual assistant!", "You can call me ChatBot!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["I need help", "Can you help me?", "Help me"],
+            "responses": ["Sure! What do you need help with?"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["What time is it?", "Tell me the time", "Current time"],
+            "responses": ["I'm not connected to a clock right now, but you can check your local time."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+            "responses": ["Why don’t scientists trust atoms? Because they make up everything! 😂"]
+        },
+        {
+            "tag": "coffee",
+            "patterns": ["I need coffee", "Where can I get coffee?", "Coffee shop nearby?"],
+            "responses": ["I love coffee too! You can check Google Maps for coffee shops nearby."]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["What is Python?", "Tell me about programming", "How do I learn to code?"],
+            "responses": ["Python is a popular programming language used for AI, web development, and more!"]
+        },
+        {
+            "tag": "fun_fact",
+            "patterns": ["Tell me a fun fact", "Give me an interesting fact"],
+            "responses": ["Did you know that honey never spoils? Archaeologists have found pots of honey in ancient tombs that are over 3000 years old and still edible!"]
+        },
+        {
+            "tag": "motivation",
+            "patterns": ["Give me motivation", "Inspire me", "I need motivation"],
+            "responses": ["You got this! Believe in yourself and great things will happen."]
+        }
+    ]
+}
